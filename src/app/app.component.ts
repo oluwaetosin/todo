@@ -35,8 +35,7 @@ export class AppComponent {
   todo;
   //todoForm: new FormGroup()
 
-
-   addTodo(value){
+ addTodo(value){
     if (value !== ''){
      this.todoArray.push(value);
    //  todoForm.resetForm()
@@ -46,7 +45,6 @@ export class AppComponent {
   }
 
   }
-
   /*delete item*/
   deleteItem(todo){
   	for (let i = 0 ; i <= this.todoArray.length ; i++){
@@ -55,9 +53,8 @@ export class AppComponent {
   		}
   	}
   }
-
-  // submit Form
-  todoSubmit(value: any){
+// submit Form
+ todoSubmit(value: any){
      if (value !== '') {
        const todoValue = value.todo;
     // add the todoValue to the this.todoArray;
