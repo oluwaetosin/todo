@@ -26,9 +26,12 @@ import {trigger, animate, style, transition, keyframes} from '@angular/animation
   ]
 })
 export class AppComponent {
-  // create a property in app.component.ts called "formTitle" and initialize the value of the form
+  // 1. create a property in app.component.ts called todoArray and intialize the value to be an empty array
+
+
+  //2. create a property in app.component.ts called "formTitle" and initialize the value of the form
   // title to be <Your name> Cool App. e.g "Tosin Cool App";
-  todoArray = [];
+
   todo;
   //todoForm: new FormGroup()
 
